@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding-bottom: 70px;
+}
+
+.form {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    background-color: lightgray;
+    padding: 5px;
+    align-items: center;
+}
+
+.name {
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+.input {
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding: 0 15px;
+    margin: 10px;
+    width: 100%;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.messages {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.messages > li {
+    padding: 10px;
+}
+
+.messages > li > span {
+    font-weight: 500;
+}
+
+.messages > li:nth-child(odd) {
+    background-color: lightgray;
+}

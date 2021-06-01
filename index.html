@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat socket.io</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <ul class="messages"></ul>
+
+        <form class="form">
+            <div class="name"></div>
+            <input type="text" class="input" autocomplete="false" autofocus>
+            <button class="btn">Отправить</button>
+        </form>
+    </header>
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
